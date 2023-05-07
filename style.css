@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    left: 52px;
+    transform: translateX(-12px, -2px);
+    background-color: rgb(96, 102, 102);
+    box-shadow: 350px 350px 350px 350px rgb(96, 102, 102);
+}
+.hed{
+    position: absolute;
+    top: 23px;
+    left: 50px;
+}
+.head{
+    display: flex;
+}
+#head{
+    position: absolute;
+    left: 1000px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#head, h3{
+    font-size: 25px;
+    color: rgb(109, 116, 116);
+    font-family: 'Courier New', Courier, monospace;
+}
+.main{
+    position: relative;
+    top: 10pc;
+}
+h6{
+    position: fixed;
+    font-size: 30px;
+}
+.font-size{
+    position: relative;
+    position: fixed;
+    top: 20pc;
+    font-size: 70px;
+}
