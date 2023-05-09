@@ -5,10 +5,8 @@
 }
 .container{
     position: absolute;
-    left: 52px;
+    left: 2px;
     transform: translateX(-12px, -2px);
-    background-color: rgb(96, 102, 102);
-    box-shadow: 350px 350px 350px 350px rgb(96, 102, 102);
 }
 .hed{
     position: absolute;
@@ -33,12 +31,83 @@
     top: 10pc;
 }
 h6{
-    position: fixed;
-    font-size: 30px;
+    position: relative;
+     left: 39px;
+     font-size: x-large;
 }
 .font-size{
     position: relative;
     position: fixed;
     top: 20pc;
     font-size: 70px;
+}
+
+.ain{
+    position: relative;
+    background-color: rgba(224, 219, 219, 0.973);
+    height: 648px;
+    width: 893px;
+    left: 454px;
+ 
+}
+#head{
+    font-size: 99px;
+    position: relative;
+    left: 720px;
+    top: 20px;
+}
+ .box{
+    float: right;
+    position: absolute;
+    left: 50px;
+    bottom: 26%;
+    height: 395px;
+    width: 724px;
+    box-shadow: 5px 1px 35px 10px black;
+    display: flex;
+    background-color: white;
+}
+
+.had{
+    /* border: 1px solid black; */
+    height: 395px;
+    width: 390px;
+    position: relative;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-size: 54px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}.p{
+  position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+      top: 10px;
+      right: 83px;
+}
+.button{
+    height: 395px;
+    width: 250px;
+    position: relative;
+    left: 30px;
+    background-color: #fff;
+    color: white;
+    font-size: 54px;
+    border-radius: 433px;
+    border-radius: 23px;
+}
+button{
+    background-color: rgba(224, 219, 219, 0.973);
+    border: 1px solid rgba(224, 219, 219, 0.973);
+    width: 295px;
+    gap: 423px;
+    height: 70px;
+    text-align: left;
+}
+p{
+    position: fixed;
+    left: 23px;
+    display: inline-flex;
+    font-size:  2pc;
 }
